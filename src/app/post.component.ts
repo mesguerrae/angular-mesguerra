@@ -18,7 +18,6 @@ export class PostComponent implements OnInit {
     this.servicio.getPosts().subscribe(res => {
       let indicador = 0;
       for (let i = 0; i < res.length; i++) {
-
         if (indicador < res.length) {
           this.aMostrar.push(res[i]);
         } else {
