@@ -1,14 +1,6 @@
 
 <div class="container" style="overflow-y:scroll; height:95vh" >
-  <ng-container
-    
-          *ngFor="
-            let item of aMostrar
-            let index = index
-          "
-  >
- 
-  
+  <ng-container *ngFor="   let item of aMostrar   let index = index " >
     <app-datapost [Data]="aMostrar[index]" ></app-datapost>
   </ng-container>
 
